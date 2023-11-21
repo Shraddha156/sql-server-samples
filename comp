@@ -1,0 +1,12 @@
+CREATE Database client_db
+Update database ;
+CREATE TABLE client(clientno char(6) Primary Key,Name varchar(20) Not Null,city varchar(50) Not Null,pin integer); 
+INSERT INTO client values('C00001', 'Ivan Bayross', 'Bombay','400054', '345621343'); 
+INSERT INTO client values('C00002', 'Vandana', 'Madras', '780001','8976532326'); 
+INSERT INTO client values('C00003', 'Parmad', 'Bombay', '40007','909089765'); 
+INSERT INTO client values('C00001', 'Ravi Shreedhar', 'Delhi','110020', '8727121232'); 
+INSERT INTO client values('C00001', 'Rukmani', 'Kolkata', '340003','231237653'); 
+INSERT INTO client values('C00001', 'Pradeep', 'Jaipur', '130102','1222132333'); 
+INSERT INTO client values('C00001', 'Geoge', 'Kolkata', '340010','3323211232'); 
+INSERT INTO client values('C00001', 'D Ravichandran', 'Bombay','400010', '221238796');
+SELECT * FROM client;
